@@ -12,15 +12,14 @@ class Adocao:
         """ """
         while True:
             try:
-                opt=int(input("Informe o que deseja fazer:\n1-Adotar um animal\n2-Registrar um animal\n3-Sair\nInforme apenas o número: "))
+                opt=int(input("Informe o que deseja fazer:\n 1-Adotar um animal\n 2-Sair\nInforme apenas o número: "))
                 if opt==1:
                     self.adotar()
                 elif opt==2:
-                    self.registrarAnimal()
-                else:
-
-                    print("Saiu")
                     break
+                else:
+                    print('\nNumero Invalido\n')
+                    
             except:
                 print("!!!Digite apenas números!!!")
         print('\nAnimais adotados:')

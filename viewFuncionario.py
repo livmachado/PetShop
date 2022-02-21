@@ -220,5 +220,3 @@ class viewFuncionario():
             print("Problemas para acessar a base de funcionários!")
 
 #Final das Funções do menu Funcionário
-                         
-

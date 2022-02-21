@@ -77,7 +77,7 @@ class Cliente():
     def clien(self):
         #Escolha do serviço que deseja
         nome= self.nome_c.split()
-        text_service=f'\nOlá {nome[0].title()}, qual serviço você procura? \n\n 1-Serviços(Banho, Tosa ou Veterinario) \n 2-Produtos(Brinquedos, Alimentos ...) \n 3-Adoção(...)\n 4-Encerrar'
+        text_service=f'\nOlá {nome[0].title()}, qual serviço você procura? \n\n 1-Serviços(Banho, Tosa ou Veterinario) \n 2-Produtos(Brinquedos, Alimentos ...) \n 3-Adoção(...)\n 4-Voltar'
         while True:
             try:
                 print(text_service)
@@ -101,10 +101,10 @@ class Cliente():
                     break
                 else:
                     print('\n!!!-Não temos esse serviço-!!!\n')
-                    text_service=f'{nome[0].title()}, possuimos apenas estes serviços: \n\n 1-Serviços(Banho, Tosa ou Veterinario) \n 2-Produtos(Brinquedos, Alimentos ...) \n 3-Adoção(...)\n 4-Encerrar'
+                    text_service=f'{nome[0].title()}, possuimos apenas estes serviços: \n\n 1-Serviços(Banho, Tosa ou Veterinario) \n 2-Produtos(Brinquedos, Alimentos ...) \n 3-Adoção(...)\n 4-Voltar'
             except ValueError:
                 print('\n!!!-Não temos esse serviço-!!!\n')
-                text_service=f'{nome[0].title()}, possuimos apenas estes serviços: \n\n 1-Serviços(Banho, Tosa ou Veterinario) \n 2-Produtos(Brinquedos, Alimentos ...) \n 3-Adoção(...)\n 4-Encerrar'
+                text_service=f'{nome[0].title()}, possuimos apenas estes serviços: \n\n 1-Serviços(Banho, Tosa ou Veterinario) \n 2-Produtos(Brinquedos, Alimentos ...) \n 3-Adoção(...)\n 4-Voltar'
 
     
         

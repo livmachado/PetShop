@@ -28,5 +28,3 @@ class Funcionario:
         return """Cargo:\t\t{}\nNome:\t\t{}\nCPF:\t\t{}\nIdade:\t\t{}\nE-mail:\t\t{}\nEndereço:\t{}\nCarga Horaria:\t{}\nSalario:\tR${}\n\n""".format("Funcionário", self.nome, str(self.CPF), self.idade, self.email, self.endereco, self.CHMensal, self.salario)
 
 
-
-    
